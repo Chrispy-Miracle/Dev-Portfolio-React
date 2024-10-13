@@ -71,14 +71,15 @@ html {
   letter-spacing: 1px;
   
 }
-.project-pics, #plantit-vid, #tone-vis-vid, #steal-candy-vid {
+ /* #plant-it-vid, #tone-vis-vid, #steal-candy-vid */
+.project-pics, .project-vids {
   width: 85%;
   height: 45%;
   border-radius: 10%;
   border: 1px solid black;
   margin-top: 20px;
 }
-#plantit-vid:hover, .project-pics:hover, #tone-vis-vid:hover, #steal-candy-vid:hover {
+.project-pics:hover, .project-vids:hover {
   transform: scale(110%);
 }
 #welcome{

@@ -4,11 +4,22 @@ import ProjectImage from "./ProjectImage";
 
 const ProjectTile = (props) => {
     return (
-        <div id="plant-it" class="project-tile">
-            <ProjectTitle href={props.href} name={props.name} />
+        <div id={props.id} class="project-tile">
+            <ProjectTitle 
+                href={props.href}
+                name={props.name} 
+            />
             <br />
-            <ProjectBlurb blurb={props.blurb} />
-            <ProjectImage type={props.type} src={props.src}/>
+            <ProjectBlurb 
+                blurb={props.blurb}
+            />
+            <ProjectImage 
+                id={props.id} 
+                imageType={props.imageType} 
+                src={props.src} 
+                href={props.href} 
+                alt={props.alt} 
+            />
         </div>
     )
 }

@@ -1,8 +1,27 @@
 const ProjectImage = (props) => {
     return (
-        <a class="proj-name" href="https://www.youtube.com/watch?v=3BkPeem3JZ8" target="_blank">
-            Garden Helper
-        </a>
+        <>        
+            {(props.imageType == "iframe") && 
+                <iframe 
+                    id={`${props.id}-vid` }
+                    class="project-vids"
+                    src={props.src} 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            }
+
+            {(props.imageType == "img") && 
+                <a href={props.href} target="_blank">
+                    <img class="project-pics" src={props.src} alt={props.alt} />
+                </a>
+            }
+
+
+        </>
+
         
     )
 }

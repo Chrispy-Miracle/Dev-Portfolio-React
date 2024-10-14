@@ -1,6 +1,6 @@
 const ProjectBlurb = (props) => {
     return (
-        <span class="proj-blurb">
+        <span className="proj-blurb">
             {props.blurb}
         </span>
     )

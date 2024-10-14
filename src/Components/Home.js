@@ -1,3 +1,4 @@
+import '../Styles/Home.css';
 import profilePic from '../images/Denali and I.png';
 
 const Home = () => {

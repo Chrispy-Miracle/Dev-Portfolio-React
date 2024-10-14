@@ -1,6 +1,6 @@
 const ProjectTitle = (props) => {
     return (
-        <a class="proj-name" href={props.href} target="_blank">
+        <a className="proj-name" href={props.href} target="_blank" rel="noreferrer">
             {props.name}
         </a>
     )

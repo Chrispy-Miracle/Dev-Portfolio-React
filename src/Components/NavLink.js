@@ -1,6 +1,6 @@
 const NavLink = ({ name }) => {
     return (
-        <li>
+        <li className="nav-links">
             <a href={`#${name}`}>{name}</a>
         </li>        
     )

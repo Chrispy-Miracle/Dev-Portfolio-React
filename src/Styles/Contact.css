@@ -1,0 +1,54 @@
+#Contact {
+    height: fit-content;
+    border: solid;
+    margin-bottom: 5vh;
+    display: block;
+    padding-top: 14vh;
+    padding-bottom: 5vh;
+    font-size: 5vw;
+    font-family: papyrus;
+    text-align: center;
+    background-image: radial-gradient(red, orange, orange, yellow, yellow, green, green, blue, indigo, violet);
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content:space-around;
+  }
+
+  .links {
+    padding: 10px;
+  }
+  .links:hover{
+    transform: scale(1.05);
+    font-weight: bold;
+  }
+  #email{
+    color: black;
+  }
+  #email:hover {
+    color: rgb(255, 0, 0);
+  }
+  #github-profile-link {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 3vh;
+  }
+  #github-profile-link:hover {
+    color: rgb(255, 0, 149);
+  }
+
+
+@media screen and (max-width:475px) { 
+    .links {
+        font-weight: 1000;
+    }
+}
+
+@media screen and (max-width:768px) { 
+    #Contact{
+        height:30vh;
+    }
+    .links {
+        font-size: 4vw;
+    }
+}

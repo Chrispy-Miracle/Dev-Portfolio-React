@@ -4,18 +4,18 @@ const ProjectImage = (props) => {
             {(props.imageType == "iframe") && 
                 <iframe 
                     id={`${props.id}-vid` }
-                    class="project-vids"
+                    className="project-vids"
                     src={props.src} 
                     title="YouTube video player" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen>
+                    allowFullScreen>
                 </iframe>
             }
 
             {(props.imageType == "img") && 
-                <a href={props.href} target="_blank">
-                    <img class="project-pics" src={props.src} alt={props.alt} />
+                <a href={props.href} target="_blank" rel="noreferrer">
+                    <img className="project-pics" src={props.src} alt={props.alt} />
                 </a>
             }
 

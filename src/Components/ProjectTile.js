@@ -4,7 +4,7 @@ import ProjectImage from "./ProjectImage";
 
 const ProjectTile = (props) => {
     return (
-        <div id={props.id} class="project-tile">
+        <div id={props.id} className="project-tile">
             <ProjectTitle 
                 href={props.href}
                 name={props.name} 

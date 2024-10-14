@@ -1,3 +1,4 @@
+import '../Styles/Credentials.css';
 import Certificate from "./Certificate";
 import { myCertificates } from "../data/myCertificates";
 
@@ -9,6 +10,7 @@ const Credentials = () => {
                 {myCertificates.map(cert => 
                     <Certificate 
                         id={cert.id}
+                        key={`${cert.id}-key`}
                         href={cert.href}
                         src={cert.src}
                         alt={cert.alt}

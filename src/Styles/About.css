@@ -1,0 +1,15 @@
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-pics {
+   height: 15vw;
+   width: auto;
+   border-radius: 10px;
+   margin: 2vw;
+}
+#me-on-comp-pic {
+    width: 50vw;
+    height: auto;
+}

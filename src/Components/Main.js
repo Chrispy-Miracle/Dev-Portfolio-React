@@ -10,6 +10,7 @@ const Main = () => {
             <Home />
             <About />
             <Projects />
+            <br />
             <Credentials />
             <Contact />
         </main>     

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Dev-Portfolio-React/static/css/main.e9d21b99.css",
+    "main.js": "/Dev-Portfolio-React/static/js/main.09c09ded.js",
+    "static/js/453.bb257cf5.chunk.js": "/Dev-Portfolio-React/static/js/453.bb257cf5.chunk.js",
+    "static/media/Cash Grab.png": "/Dev-Portfolio-React/static/media/Cash Grab.f2d49d1ee11763bf0d28.png",
+    "static/media/Denali and I.png": "/Dev-Portfolio-React/static/media/Denali and I.d78211d81a67eb87af86.png",
+    "static/media/CWPin garden.jpg": "/Dev-Portfolio-React/static/media/CWPin garden.30b5faf8409418718c15.jpg",
+    "static/media/CWPbassMarble.png": "/Dev-Portfolio-React/static/media/CWPbassMarble.f6a219d2f595bc42b261.png",
+    "static/media/CWPcomputing.jpg": "/Dev-Portfolio-React/static/media/CWPcomputing.b2fad4ae1166ade63b43.jpg",
+    "static/media/Choropleth.png": "/Dev-Portfolio-React/static/media/Choropleth.bfaabe222927c2d9ee3e.png",
+    "static/media/LtFA Album cover.jpg": "/Dev-Portfolio-React/static/media/LtFA Album cover.41001b02a4228ea8c9c4.jpg",
+    "static/media/CS50W.png": "/Dev-Portfolio-React/static/media/CS50W.b138198eecd47322e755.png",
+    "static/media/CS50x.png": "/Dev-Portfolio-React/static/media/CS50x.620b69ef7c8ec3dd0bac.png",
+    "static/media/CS50G.png": "/Dev-Portfolio-React/static/media/CS50G.9d844d390a4faf6252a7.png",
+    "static/media/UnityJuniorProgrammer_Badge.png": "/Dev-Portfolio-React/static/media/UnityJuniorProgrammer_Badge.a4e77700e27296c58027.png",
+    "static/media/c-sharp-certification.png": "/Dev-Portfolio-React/static/media/c-sharp-certification.950c75afa7b64ab6e739.png",
+    "static/media/CS50x-verified.png": "/Dev-Portfolio-React/static/media/CS50x-verified.e601c19c5f8baf21b4a5.png",
+    "static/media/data-visualization-certification.png": "/Dev-Portfolio-React/static/media/data-visualization-certification.7b954fad06733d6c6962.png",
+    "static/media/Javascript-cert.png": "/Dev-Portfolio-React/static/media/Javascript-cert.8602773ea32fa1fd0a22.png",
+    "static/media/Front-end-libraries.png": "/Dev-Portfolio-React/static/media/Front-end-libraries.acafaff2b5c8a6bad37c.png",
+    "static/media/Web-design-cert.png": "/Dev-Portfolio-React/static/media/Web-design-cert.d140a91c7e41f2f1146b.png",
+    "index.html": "/Dev-Portfolio-React/index.html",
+    "main.e9d21b99.css.map": "/Dev-Portfolio-React/static/css/main.e9d21b99.css.map",
+    "main.09c09ded.js.map": "/Dev-Portfolio-React/static/js/main.09c09ded.js.map",
+    "453.bb257cf5.chunk.js.map": "/Dev-Portfolio-React/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9d21b99.css",
+    "static/js/main.09c09ded.js"
+  ]
+}

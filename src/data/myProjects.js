@@ -35,7 +35,7 @@ export const myProjects = [
         id: "cash-grab",
         href: "https://play.unity.com/en/games/2416626f-4290-435c-9414-ed5d46267394/cash-grab",
         name: "Cash Grab",
-        blurb: "Grab as much as you can in this fast paced 3D money grab game built with C# with the Unity game engine!",
+        blurb: "Grab as much money as you can in this fast paced 3D virtual money box game built with C# with the Unity game engine!",
         imageType: "img",
         src: cashGrab,
         alt: "image of cash grab money box game"

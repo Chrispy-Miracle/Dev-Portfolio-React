@@ -1,52 +1,53 @@
 .project-tile {
     width: 27vw;
-    height: 48vw;
+    height: 40vw;
     margin: 2vw;
     border: 2px solid black;
     border-radius: 15%;
     text-align: center;    
-    /* background-image: linear-gradient(75deg, teal, white, green); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ecd7ef;
-    font-size: 2.25vw;
-    font-family: lucida handwriting;
     padding: 2vw;
   }
   .project-tile:hover {
     transform: scale(105%);
   }
   .proj-name{
-    padding: 20px;
-    margin-bottom: 20px;
-    font-size: 2vw;
+    padding: 5px;
+    width: 105%;
+    height: 16%;
+    font-size: 2.2vw;
     font-family: "Delius", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 800;
     font-style: normal;
     text-transform: none;
   }
   .proj-blurb{
     color: #000000;
-    font-size: 1.2vw;
+    font-size: 1.7vw;
     font-family: "DM sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
+    text-align: center;
     text-transform: none;
-    line-height: 0;
     letter-spacing: 1px;
-    
+    height: 37%;
+    width: 100%;
+    margin-top: 10px;
   }
-   /* #plant-it-vid, #tone-vis-vid, #steal-candy-vid */
   .project-pics, .project-vids {
-    width: 85%;
-    height: 45%;
+    width: 23vw;
+    height: 15vw;
     border-radius: 10%;
     border: 1px solid black;
-    margin-top: 20px;
   }
-  .project-pics:hover, .project-vids:hover {
-    transform: scale(110%);
+  .proj-pic-link, .project-vids {
+    height: 40%;
+    margin-top: 10px;
   }
-
   #Projects {
     padding-bottom: 5vh;
     border: solid 2px;
@@ -65,18 +66,31 @@
     .project-tile {
         flex-basis: 45%;
         width: 45vw;
+        height: 50vw;
     }
     .proj-name {
-        font-size: 22px;
-        padding: 15px;
+        font-size: 3.6vw;
         word-wrap: break-word;
+        height:15%;
     }
     .proj-blurb {
-        padding: 5px;
-        font-size: 14px;
-        width: 80%;
+        font-size: 2.4vw;
         letter-spacing: 2px;
-        line-height: 1;
+        height: 35%;
+    }
+    .project-pics, .project-vids {
+        width: 34vw;
+        height: 20vw;  
+    }
+ }
+
+ @media screen and (max-width:600px){
+    .project-tile {
+      height: 60vw;
+    }
+    .proj-blurb{
+      height: 40%;
+      font-size: 2.6vw;
     }
  }
 
@@ -86,10 +100,22 @@
         align-items: center;
     }
     .project-tile{
-        height: 80vw;
+        height: 75vh;
         width: 80vw;
    }
-    .project-pics {
-        height: 20vh;
+   .proj-name {
+    font-size: 6vw;
+    width: 95%;
+   }
+   .proj-blurb {
+      font-size: 4.2vw;
+      font-weight: 500;
+   }
+    .project-pics, .project-vids {
+      width: 65vw;
+      height: 20vh;
+    }
+    .project-vids {
+      margin: 20px;
     }
 }

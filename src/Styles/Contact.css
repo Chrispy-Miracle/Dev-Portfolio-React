@@ -1,18 +1,18 @@
 #Contact {
     height: fit-content;
     border: solid;
-    margin-bottom: 5vh;
+    /* margin-bottom: 5vh; */
     display: block;
-    padding-top: 14vh;
-    padding-bottom: 5vh;
+    /* padding-top: 14vh;
+    padding-bottom: 5vh; */
     font-size: 5vw;
     font-family: papyrus;
     text-align: center;
     background-image: radial-gradient(red, orange, orange, yellow, yellow, green, green, blue, indigo, violet);
     display: flex;
     flex-direction: column;
-    align-items: space-between;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: center;
   }
 
   .links {
@@ -39,14 +39,17 @@
 
 
 @media screen and (max-width:475px) { 
-    .links {
+    #Contact{
+        height:30vh;
+    }
+     .links {
         font-weight: 1000;
     }
 }
 
 @media screen and (max-width:768px) { 
     #Contact{
-        height:30vh;
+        height: 65vh;
     }
     .links {
         font-size: 4vw;

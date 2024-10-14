@@ -1,7 +1,7 @@
 const ProjectImage = (props) => {
     return (
         <>        
-            {(props.imageType == "iframe") && 
+            {(props.imageType === "iframe") && 
                 <iframe 
                     id={`${props.id}-vid` }
                     className="project-vids"
@@ -13,8 +13,8 @@ const ProjectImage = (props) => {
                 </iframe>
             }
 
-            {(props.imageType == "img") && 
-                <a href={props.href} target="_blank" rel="noreferrer">
+            {(props.imageType === "img") && 
+                <a className="proj-pic-link" href={props.href} target="_blank" rel="noreferrer">
                     <img className="project-pics" src={props.src} alt={props.alt} />
                 </a>
             }

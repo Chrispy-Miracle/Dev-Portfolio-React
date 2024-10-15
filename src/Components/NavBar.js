@@ -5,6 +5,9 @@ import '../Styles/NavBar.css';
 const NavBar = () => {
     return (
         <nav>
+            <div className="logo">
+                <h4>Chris Patchett: Portfolio</h4>
+            </div>
             <ul className="nav-links">
                 <NavLink name="Home" />
                 <NavLink name="About" />
@@ -14,7 +17,6 @@ const NavBar = () => {
             </ul>
             <NavBurger />
         </nav>
-
     )
 }
 

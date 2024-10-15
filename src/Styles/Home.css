@@ -1,7 +1,7 @@
 #guru{
     font-size: 6vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 7vh;
+    padding-top: 80px;
     margin: 10px;
     text-shadow: 2px 2px 4px black;
     }
@@ -43,11 +43,10 @@
 
 #Home h2 {
     color: rgb(101, 14, 160);
-    font-family: "DM Sans", sans-serif;
+    font-family: "Delius", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: bold; 
-    text-shadow: 2px 2px 2px white;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px rgb(40, 34, 34);
     }
     
 #skills {

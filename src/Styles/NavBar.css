@@ -1,25 +1,36 @@
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    min-height: 8vh;
-    background-color: blueviolet;
+    background-color: rgb(62, 19, 101);
     border: 1px solid rgb(100, 32, 163);
     position: fixed;
     top: 0;
+    height: 64px;
     width: 100vw;
     z-index: 1;
 }
 
+.logo {
+    color: rgb(241, 232, 232);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
 .nav-links {
     display: flex;
-    background-color: blueviolet;
+    background-color: rgb(62, 19, 101);
     justify-content: space-around;
+    align-items: center;
     width: 50%;
-    margin: 0 10px 0 10px;
+    margin-right: 15px;
 }
 .nav-links li{
     list-style: none;
+    width: fit-content;
 }
 .nav-links a{
     color: rgb(241, 232, 232);
@@ -28,9 +39,12 @@ nav {
     font-weight: bold;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 .nav-links a:hover{
-    color: rgb(69, 22, 112);    
+    color: blueviolet;   
+    text-shadow: 2px 2px black;
+    transform: scale(1.2);
     text-transform: uppercase;
 }
 .burger div{
@@ -70,13 +84,25 @@ nav {
   }
 
 @media screen and (max-width:1024px){
+    
     .nav-links {
-        width: 50%;        
+        width: 55%; 
+        /* margin-right: 10px;   */
+        justify-content: center;     
+    }
+    .logo {
+        width: 40%;
+        font-size: 16px;
+        margin-left: 10px;
     }
 }
 
 
 @media screen and (max-width:768px) { 
+    nav {
+        justify-content: space-between;
+        height: 80px;
+    }
     .nav-links {
         position: absolute;
         right: 0px;
@@ -98,6 +124,7 @@ nav {
     .burger {
         display: block;
         cursor: pointer;
+        margin-right: 20px;
     }
 }
 

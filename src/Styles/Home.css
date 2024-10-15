@@ -7,6 +7,8 @@
     }
 #name {
     padding-left: 20px;
+    font-size: 6vw;
+    padding-top: 0; 
     }
 
 #Home {
@@ -31,8 +33,8 @@
     border-radius: 10%;
     border: 2px solid black;
     z-index: 0;
-    height: 30vh;
-    width: 30vh;
+    height: 25vh;
+    width: 25vh;
     }
 
 #profile-pic.pic-active{
@@ -51,7 +53,7 @@
     
 #skills {
     color: rgb(38, 10, 114);
-    font-size: 6vh;
+    font-size: 4vh;
     padding-left: 3vw; 
     padding-right: 3vw; 
     padding-bottom: 3vh; 
@@ -69,14 +71,17 @@
         font-size: 5vw;
         word-wrap: break-word;
         width: 80%;
+        padding: 0;
+        margin: 50px;
     }
     #guru {
-        font-size: 8vw;
+        font-size: 7vw;
     }
     #name.pic-active{
-        font-family: Tahoma;
-        font-size: 5vw;
-        padding-top: 3vh;
+        /* font-family: Tahoma; */
+        font-size: 8vw;
+        padding-top: 0;
+        margin-top: 20px;
         word-wrap: break-word;
     }
 }
@@ -91,8 +96,13 @@
         word-break: break-word;
     }
     #name{
-        font-size: 7vw;
+        font-size: 5vw;
         padding-left: 0;
+    }
+    #name.pic-active {
+        width: 65vw;
+        font-size: 6vw;
+        margin-top: 0;
     }
     #welcome {
         flex-direction: column;

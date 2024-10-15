@@ -1,7 +1,7 @@
-const NavLink = ({ name }) => {
+const NavLink = ({ name, isBurger, handleBurgerClick }) => {
     return (
-        <li className="nav-links">
-            <a href={`#${name}`}>{name}</a>
+        <li className={"nav-list-item" + (isBurger ? " navLinkFade" : "")}>
+            <a className="nav-link"  href={`#${name}`} onClick={handleBurgerClick}>{name}</a>
         </li>        
     )
 }

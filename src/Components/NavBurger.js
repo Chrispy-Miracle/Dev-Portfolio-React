@@ -1,9 +1,9 @@
-const NavBurger = () => {
+const NavBurger = ({ handleBurgerClick, isBurger }) => {
     return (
-        <div className="burger">
-            <div className="line1"></div>
-            <div className="line2"></div>
-            <div className="line3"></div>
+        <div id="burger" className={isBurger ? "toggle" : ""} onClick={handleBurgerClick}>
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
         </div> 
     )
 }

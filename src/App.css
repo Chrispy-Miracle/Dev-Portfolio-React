@@ -56,9 +56,7 @@ a{
   background-color: black;
 }
 
-.pic-active{
-  transform: translateX(-17vw);
-}
+
 
 /* Put media queries back here? */
 @media screen and (max-width:768px) {

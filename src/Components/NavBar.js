@@ -1,21 +1,23 @@
+
 import NavLink from "./NavLink";
 import NavBurger from "./NavBurger";
 import '../Styles/NavBar.css';
 
-const NavBar = () => {
+const NavBar = ({ isBurger, handleBurgerClick }) => {
+    // const width = window.innerWidth;
+    const navLinks = ["Home", "About", "Projects", "Credentials", "Contact"]
+
     return (
         <nav>
             <div className="logo">
                 <h4>Chris Patchett: Portfolio</h4>
             </div>
-            <ul className="nav-links">
-                <NavLink name="Home" />
-                <NavLink name="About" />
-                <NavLink name="Projects" />
-                <NavLink name="Credentials" />
-                <NavLink name="Contact" />
+            <ul className={"nav-links" + (!isBurger ? " nav-inactive": "")}>
+                {navLinks.map(link => 
+                    <NavLink key={`${link}-key`} name={link} isBurger={isBurger} handleBurgerClick={handleBurgerClick} />
+                )}
             </ul>
-            <NavBurger />
+            <NavBurger handleBurgerClick={handleBurgerClick} isBurger={isBurger} />
         </nav>
     )
 }

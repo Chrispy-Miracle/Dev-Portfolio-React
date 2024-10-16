@@ -1,13 +1,14 @@
 import pherkadPic from '../images/LtFA Album cover.jpg';
 import cashGrab from '../images/Cash Grab.png';
-import choropleth from '../images/Choropleth.png';
+// import choropleth from '../images/Choropleth.png';
+import unityEssentials from '../images/Unity Essentials.png';
 
 export const myProjects = [
     {
         id: "plant-it",
         href: "https://www.youtube.com/watch?v=3BkPeem3JZ8",
         name: "Garden Helper",
-        blurb: "Plant-It is a Garden Helper/Organizer built with Javascript and Python using the Flask framework",
+        blurb: '"Plant-It" is a fullstack Garden Helper/Organizer web app built with Javascript and Python using the Flask framework.',
         imageType: "iframe",
         src: "https://www.youtube.com/embed/3BkPeem3JZ8",
         alt: ""
@@ -17,7 +18,7 @@ export const myProjects = [
         id: "tone-vis",
         href: "https://www.youtube.com/watch?v=BltQane09q4",
         name: "Tone Visualizer",
-        blurb: "Create visuals and sounds (with WebAudio API) , built with Javascript and Python and the Django framework",
+        blurb: "Create visuals and sounds (with WebAudio API). Fullstack web app built with Javascript and Python and the Django framework",
         imageType: "iframe",
         src: "https://www.youtube.com/embed/BltQane09q4",
         alt: ""
@@ -41,13 +42,13 @@ export const myProjects = [
         alt: "image of cash grab money box game"
     },
     {
-        id: "chorpleth",
-        href: "https://chrispy-miracle.github.io/D3-Choropleth/",
-        name: "Choropleth Map",
-        blurb: "Interactive map showing percentage of Bachelors Degree holders in each county, made with JS and Data Driven Documents" ,
+        id: "unity-essentials",
+        href: "https://play.unity.com/en/games/b361f99c-ebf0-4405-ad58-802988a1c965/chrispys-unity-essentials",
+        name: "Unity Essentials",
+        blurb: "An interactive portfolio created in the Unity Game Engine for the Unity Essentials course. Demos 2D, 3D, Audio and more!",
         imageType: "img",
-        src: choropleth,
-        alt: "pic of Choropleth page"
+        src: unityEssentials,
+        alt: "My Unity portfolio created for Unity Essentials course"
     },
     {
         id: "steal-candy",
@@ -59,3 +60,15 @@ export const myProjects = [
         alt: ""
     }
 ]
+
+
+
+    // {
+    //     id: "chorpleth",
+    //     href: "https://chrispy-miracle.github.io/D3-Choropleth/",
+    //     name: "Choropleth Map",
+    //     blurb: "Interactive map showing percentage of Bachelors Degree holders in each county, made with JS and Data Driven Documents" ,
+    //     imageType: "img",
+    //     src: choropleth,
+    //     alt: "pic of Choropleth page"
+    // },

@@ -2,7 +2,6 @@ import '../Styles/Projects.css';
 import ProjectTile from "./ProjectTile";
 import { myProjects } from "../data/myProjects";
 
-
 const Projects = () => {
     return (
         <section id="Projects">

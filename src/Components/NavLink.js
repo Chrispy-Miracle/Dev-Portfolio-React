@@ -1,7 +1,13 @@
-const NavLink = ({ name, isBurger, handleBurgerClick }) => {
+const NavLink = ({ name, isBurgerOpen, sideNavOpen, handleBurgerClick }) => {
+    const handleNavClick = () => {
+        if (isBurgerOpen) {
+            handleBurgerClick()
+        }
+    }
+
     return (
-        <li className={"nav-list-item" + (isBurger ? " navLinkFade" : "")}>
-            <a className="nav-link"  href={`#${name}`} onClick={handleBurgerClick}>{name}</a>
+        <li className={"nav-list-item" + (isBurgerOpen && sideNavOpen ? " navLinkFade" : "")}>
+            <a className="nav-link"  href={`#${name}`} onClick={handleNavClick}>{name}</a>
         </li>        
     )
 }

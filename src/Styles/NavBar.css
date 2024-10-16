@@ -77,7 +77,7 @@ nav {
 
 
 .navLinkFade {
-    animation: navLinkFade 0.5s ease forwards .4s; /* ${index / 5 + .7} */
+    animation: navLinkFade 0.5s ease forwards .4s;
 }
 
 @keyframes navLinkFade{
@@ -95,7 +95,6 @@ nav {
     
     .nav-links {
         width: 60%; 
-        /* margin-right: 10px;   */
         justify-content: center;     
     }
     .logo {
@@ -125,7 +124,6 @@ nav {
         border: 1px solid rgb(100, 32, 163);
     }
     .nav-list-item {
-        opacity: 0;
         padding: 6px;
     }
     #burger {

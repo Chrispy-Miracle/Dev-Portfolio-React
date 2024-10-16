@@ -4,10 +4,10 @@ import Projects from './Projects';
 import Credentials from './Credentials';
 import Contact from './Contact';
 
-const Main = ({ isBurger }) => {
+const Main = ({ isBurgerOpen }) => {
     return (
         <main>
-            <Home isBurger={isBurger} />
+            <Home isBurgerOpen={isBurgerOpen} />
             <About />
             <Projects />
             <br />

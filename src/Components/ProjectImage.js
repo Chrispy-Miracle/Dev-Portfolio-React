@@ -18,11 +18,7 @@ const ProjectImage = (props) => {
                     <img className="project-pics" src={props.src} alt={props.alt} />
                 </a>
             }
-
-
         </>
-
-        
     )
 }
 

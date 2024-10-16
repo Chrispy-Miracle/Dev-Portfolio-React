@@ -19,9 +19,6 @@ const About = () => {
             
             <p>What began for me as a casual curiosity has grown into both a passionate pursuit and a career opportunity.</p>
             
-            {/* <p>Although I have only just scratched the surface, 
-                I have learned an incredible amount and am quite proud of my progress. </p> */}
-            
             <p>Having completed a three month internship intensive writing React.js code 
                 for the frontend of a fullstack Scrum team at a reputable tech company (<a href="https://www.teamsparq.com">Rural Sourcing Inc. (Recently rebranded as "Sparq")</a>) and am now prepared to add value to your team.</p>
             

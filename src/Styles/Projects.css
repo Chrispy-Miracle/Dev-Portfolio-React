@@ -1,120 +1,119 @@
 .project-tile {
     width: 27vw;
-    height: 40vw;
     margin: 2vw;
-    border: 2px solid black;
-    border-radius: 15%;
-    text-align: center;    
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center; 
+    border: 2px solid black;
+    border-radius: 15%;
     background-color: #ecd7ef;
-    padding: 2vw;
   }
-  .project-tile:hover {
-    transform: scale(105%);
-  }
-  .proj-name{
-    padding: 5px;
-    width: 105%;
-    height: 16%;
-    font-size: 2.2vw;
-    font-family: "Delius", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    text-transform: none;
-  }
-  .proj-blurb{
-    color: #000000;
-    font-size: 1.7vw;
-    font-family: "DM sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    text-align: center;
-    text-transform: none;
-    letter-spacing: 1px;
-    height: 37%;
-    width: 100%;
-  }
-  .project-pics, .project-vids {
-    width: 23vw;
-    height: 15vw;
-    border-radius: 10%;
-    border: 1px solid black;
-  }
-  .proj-pic-link, .project-vids {
-    height: 40%;
-    margin-top: 10px;
-  }
-  #Projects {
-    padding-bottom: 5vh;
-    border: solid 2px;
-    background-image: linear-gradient(0deg, purple, rgb(253, 215, 248), purple);
-    height: fit-content;
-    text-align: center;
-  }
-  #project-container {
-    display: flex;  
-    flex-wrap: wrap;  
-    justify-content: space-between;
-  }
+.project-tile:hover {
+  transform: scale(105%);
+}
+.proj-name{
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  font-size: 2.1vw;
+  font-family: "Delius", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  text-transform: none;
+}
+.proj-blurb{
+  padding: 5px;
+  margin: 5px;
+  color: #000000;
+  font-size: 1.7vw;
+  font-family: "DM sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 1px;
+}
+.project-pics, .project-vids {
+  width: 23vw;
+  height: 15vw;
+  margin: 10px;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+.proj-image-container {
+  height: 15vw;
+  margin: 10px 0 20px 0;
+}
+.name-blurb-container {
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 50%;
+}
+#Projects {
+  height: fit-content;
+  padding-bottom: 5vh;
+  border: solid 2px;
+  background-image: linear-gradient(0deg, purple, rgb(253, 215, 248), purple);
+  text-align: center;
+}
+#project-container {
+  display: flex;  
+  flex-wrap: wrap;  
+  justify-content: space-between;
+}
 
 
 @media screen and (max-width:768px) {
-    .project-tile {
-        flex-basis: 45%;
-        width: 45vw;
-        height: 50vw;
-    }
-    .proj-name {
-        font-size: 3.6vw;
-        word-wrap: break-word;
-        height:15%;
-    }
-    .proj-blurb {
-        font-size: 2.4vw;
-        letter-spacing: 2px;
-        height: 35%;
-    }
-    .project-pics, .project-vids {
-        width: 34vw;
-        height: 20vw;  
-    }
- }
-
- @media screen and (max-width:600px){
-    .project-tile {
-      height: 60vw;
-    }
-    .proj-blurb{
-      height: 40%;
-      font-size: 2.6vw;
-    }
- }
+  .project-tile {
+    flex-basis: 45%;
+    width: 45vw;
+    height: 70vw;
+  }
+  .proj-name {
+    font-size: 3.6vw;
+    height: 20%;
+  }
+  .proj-blurb {
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin: 20px 0;
+  }
+  .project-pics, .project-vids {
+    width: 29vw;
+    height: 22vw;  
+  }
+}
 
 @media screen and (max-width:475px){
-    #project-container{
-        flex-direction: column;
-        align-items: center;
-    }
-    .project-tile{
-        height: 75vh;
-        width: 80vw;
-   }
-   .proj-name {
+  #project-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-tile{
+    height:auto;
+    width: 80vw;
+    flex-basis: auto;
+  }
+  .proj-name {
     font-size: 6vw;
     width: 95%;
-   }
-   .proj-blurb {
-      font-size: 4.2vw;
-      font-weight: 500;
-   }
-    .project-pics, .project-vids {
-      width: 65vw;
-      height: 20vh;
-    }
-    .project-vids {
-      margin: 20px;
-    }
+  }
+  .proj-blurb {
+    margin: 0;
+    font-size: 4.2vw;
+    font-weight: 500;
+  }
+  .project-pics, .project-vids {
+    width: 60vw;
+    height: 35vw;  
+  }
+  .proj-image-container {
+    height: 40vw;
+    margin: 0;
+  }
 }

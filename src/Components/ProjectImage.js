@@ -1,6 +1,6 @@
 const ProjectImage = (props) => {
     return (
-        <>        
+        <div className="proj-image-container">        
             {(props.imageType === "iframe") && 
                 <iframe 
                     id={`${props.id}-vid` }
@@ -12,13 +12,13 @@ const ProjectImage = (props) => {
                     allowFullScreen>
                 </iframe>
             }
-
+{/* className="proj-pic-link" */}
             {(props.imageType === "img") && 
-                <a className="proj-pic-link" href={props.href} target="_blank" rel="noreferrer">
+                <a  href={props.href} target="_blank" rel="noreferrer">
                     <img className="project-pics" src={props.src} alt={props.alt} />
                 </a>
             }
-        </>
+        </div>
     )
 }
 

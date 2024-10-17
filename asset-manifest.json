@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dev-Portfolio-React/static/css/main.1c29d591.css",
-    "main.js": "/Dev-Portfolio-React/static/js/main.4819b109.js",
+    "main.css": "/Dev-Portfolio-React/static/css/main.499a9f9e.css",
+    "main.js": "/Dev-Portfolio-React/static/js/main.8d987449.js",
     "static/js/453.bb257cf5.chunk.js": "/Dev-Portfolio-React/static/js/453.bb257cf5.chunk.js",
     "static/media/Cash Grab.png": "/Dev-Portfolio-React/static/media/Cash Grab.f2d49d1ee11763bf0d28.png",
     "static/media/Denali and I.png": "/Dev-Portfolio-React/static/media/Denali and I.d78211d81a67eb87af86.png",
@@ -21,12 +21,12 @@
     "static/media/Front-end-libraries.png": "/Dev-Portfolio-React/static/media/Front-end-libraries.acafaff2b5c8a6bad37c.png",
     "static/media/Web-design-cert.png": "/Dev-Portfolio-React/static/media/Web-design-cert.d140a91c7e41f2f1146b.png",
     "index.html": "/Dev-Portfolio-React/index.html",
-    "main.1c29d591.css.map": "/Dev-Portfolio-React/static/css/main.1c29d591.css.map",
-    "main.4819b109.js.map": "/Dev-Portfolio-React/static/js/main.4819b109.js.map",
+    "main.499a9f9e.css.map": "/Dev-Portfolio-React/static/css/main.499a9f9e.css.map",
+    "main.8d987449.js.map": "/Dev-Portfolio-React/static/js/main.8d987449.js.map",
     "453.bb257cf5.chunk.js.map": "/Dev-Portfolio-React/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c29d591.css",
-    "static/js/main.4819b109.js"
+    "static/css/main.499a9f9e.css",
+    "static/js/main.8d987449.js"
   ]
 }
